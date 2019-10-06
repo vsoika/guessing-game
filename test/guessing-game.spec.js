@@ -8,9 +8,9 @@ describe('#guess', () => {
         const game = new GuessingGame();
         game.setRange(0, 4048)
 
-        let result = game.guess();
+        let result = game.guess(); //2024
         game.lower();
-        result = game.guess();
+        result = game.guess(); // 
         game.lower();
         result = game.guess();
         game.lower();
